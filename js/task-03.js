@@ -14,7 +14,7 @@ const images = [
 ];
 
 const gallery = document.querySelector("#gallery");
-gallery.classList.add("gallery");
+
 gallery.insertAdjacentHTML(
   "beforebegin",
   '<h2 class ="gallery-name">Gallery</h2>'
